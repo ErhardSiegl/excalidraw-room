@@ -8,7 +8,7 @@ const ioDebug = debug("io");
 const socketDebug = debug("socket");
 
 const app = express();
-const port = process.env.PORT || 80; // default port to listen
+const port = process.env.PORT || 8080; // default port to listen
 
 app.use(express.static("public"));
 
